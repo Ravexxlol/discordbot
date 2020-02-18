@@ -2,6 +2,7 @@ const snekfetch = require('snekfetch');
 const token = process.env.arcadia
 
 module.exports.run = async (bot, message, args) => {
+    async function declaredAsAsync() {
 
     let target = message.mentions.users.first() || message.guild.members.get(args[0]).user || message.author;
     let profilepic = target.avatarURL;
@@ -27,4 +28,4 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
     name: 'triggered',
     aliases: []
-};
+}};
