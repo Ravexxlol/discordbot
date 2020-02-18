@@ -1,0 +1,21 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mozart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "fs": "0.0.1-security",
+    "git-rev": "^0.2.1",
+    "ms": "^2.1.2",
+    "superagent": "^5.2.1",
+    "url": "^0.11.0",
+    "ws": "^7.2.1",
+    "ytdl-core": "^1.0.9"
+  }
+}
