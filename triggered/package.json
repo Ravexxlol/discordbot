@@ -1,0 +1,56 @@
+{
+  "_from": "triggered",
+  "_id": "triggered@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-WVSQ3GhuwaE+BHZa4JTfOyUgb4AFiK8wqgTT1piUU2o1Wp59l06OJa/xYDW+vVYDGaavds9oxI9Mc+Fsz3iL4A==",
+  "_location": "/triggered",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "triggered",
+    "name": "triggered",
+    "escapedName": "triggered",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/triggered/-/triggered-0.1.0.tgz",
+  "_shasum": "cdaaac195d20a3cb34a32bd0e9ec0e4949382cdb",
+  "_spec": "triggered",
+  "_where": "C:\\Users\\marko\\Desktop\\discordbot",
+  "author": {
+    "name": "Marcus Klein"
+  },
+  "bin": {
+    "triggered": "bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/marcusklein/triggered/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-simple-router": "^0.2.0"
+  },
+  "deprecated": false,
+  "description": "A simple app that triggers deploys",
+  "homepage": "https://github.com/marcusklein/triggered#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "triggered",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusklein/triggered.git"
+  },
+  "scripts": {
+    "test": "echo TODO: Write some tests"
+  },
+  "version": "0.1.0"
+}
